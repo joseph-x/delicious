@@ -1,0 +1,108 @@
+
+/* Shadow Level 1 */
+@shadow-color-1-9: rgba(0,0,0,0.09);
+@shadow-color-1-12: rgba(0, 0, 0, 0.12);
+@shadow-color-1-16: rgba(0, 0, 0, 0.16);
+
+@shadow-blur-1-1: 2rpx;
+@shadow-blur-1-2: 6rpx;
+@shadow-blur-1-3: 12rpx;
+
+/* Shadow Level 2 */
+@shadow-color-2-5: rgba(0, 0, 0, 0.05);
+@shadow-color-2-8: rgba(0, 0, 0, 0.08);
+@shadow-color-2-12: rgba(0, 0, 0, 0.12);
+
+@shadow-blur-2-1: 6rpx;
+@shadow-blur-2-2: 16rpx;
+@shadow-blur-2-3: 28rpx;
+
+/* Shadow Level 3 */
+@shadow-color-3-3: rgba(0, 0, 0, 0.03);
+@shadow-color-3-5: rgba(0, 0, 0, 0.05);
+@shadow-color-3-8: rgba(0, 0, 0, 0.08);
+
+
+.shadow-1-up {
+    box-shadow: 
+        0rpx -1rpx @shadow-blur-1-1 -2rpx @shadow-color-1-16,
+        0rpx -3rpx @shadow-blur-1-2 0rpx @shadow-color-1-12,
+        0rpx -5rpx @shadow-blur-1-3 4rpx @shadow-color-1-9;
+}
+
+.shadow-1-down {
+    box-shadow: 
+        0rpx 1rpx @shadow-blur-1-1 -2rpx @shadow-color-1-16, 
+        0rpx 3rpx @shadow-blur-1-2 0rpx @shadow-color-1-12, 
+        0rpx 5rpx @shadow-blur-1-3 4rpx @shadow-color-1-9;
+}
+
+.shadow-1-left {
+    box-shadow: 
+        -1rpx 0rpx @shadow-blur-1-1 -2rpx @shadow-color-1-16,
+        -3rpx 0rpx @shadow-blur-1-2 0rpx @shadow-color-1-12,
+        -5rpx 0rpx @shadow-blur-1-3 4rpx @shadow-color-1-9;
+}
+
+.shadow-1-right {
+    box-shadow: 
+        1rpx 0rpx @shadow-blur-1-1 -2rpx @shadow-color-1-16,
+        3rpx 0rpx @shadow-blur-1-2 0rpx @shadow-color-1-12,
+        5rpx 0rpx @shadow-blur-1-3 4rpx @shadow-color-1-9;
+}
+
+.shadow-2-up {
+    box-shadow: 
+        0rpx -3rpx @shadow-blur-2-1 -4rpx @shadow-color-2-12,
+        0rpx -6rpx @shadow-blur-2-2 0rpx @shadow-color-2-8,
+        0rpx -9rpx @shadow-blur-2-3 8rpx @shadow-color-2-5;
+}
+
+.shadow-2-down {
+    box-shadow: 
+        0rpx 3rpx @shadow-blur-2-1 -4rpx @shadow-color-2-12,
+        0rpx 6rpx @shadow-blur-2-2 0rpx @shadow-color-2-8,
+        0rpx 9rpx @shadow-blur-2-3 8rpx @shadow-color-2-5;
+}
+
+.shadow-2-left {
+    box-shadow: 
+        -3rpx 0rpx @shadow-blur-2-1 -4rpx @shadow-color-2-12,
+        -6rpx 0rpx @shadow-blur-2-2 0rpx @shadow-color-2-8,
+        -9rpx 0rpx @shadow-blur-2-3 8rpx @shadow-color-2-5;
+}
+
+.shadow-2-right {
+    box-shadow: 
+        3rpx 0rpx @shadow-blur-2-1 -4rpx @shadow-color-2-12,
+        6rpx 0rpx @shadow-blur-2-2 0rpx @shadow-color-2-8,
+        9rpx 0rpx @shadow-blur-2-3 8rpx @shadow-color-2-5;
+}
+
+.shadow-3-up {
+    box-shadow: 
+        0rpx -6rpx 16rpx -8rpx @shadow-color-3-8,
+        0rpx -9rpx 28rpx 0rpx @shadow-color-3-5,
+        0rpx -12rpx 48rpx 16rpx @shadow-color-3-3;
+}
+
+.shadow-3-down {
+    box-shadow: 
+        0rpx 6rpx 16rpx -8rpx @shadow-color-3-8,
+        0rpx 9rpx 28rpx 0rpx @shadow-color-3-5,
+        0rpx 12rpx 48rpx 16rpx @shadow-color-3-3;
+}
+
+.shadow-3-left {
+    box-shadow: 
+        -6rpx 0rpx 16rpx -8rpx @shadow-color-3-8,
+        -9rpx 0rpx 28rpx 0rpx @shadow-color-3-5,
+        -12rpx 0rpx 48rpx 16rpx @shadow-color-3-3;
+}
+
+.shadow-3-right {
+    box-shadow: 
+        6rpx 0rpx 16rpx -8rpx @shadow-color-3-8,
+        9rpx 0rpx 28rpx 0rpx @shadow-color-3-5,
+        12rpx 0rpx 48rpx 16rpx @shadow-color-3-3;
+}
