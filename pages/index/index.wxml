@@ -14,3 +14,25 @@
 </view>
 <van-button type="primary">按钮</van-button>
 -->
+
+<!--
+<view class="title">Hi, Steve</view>
+<view class="primary-text">Hi, Steve</view>
+<view class="secondary-text">Hi, Steve</view>
+<view style="margin:8rpx;height:1800rpx" class="bg-color">
+  <view class="title">Hi, Steve</view>
+  <view class="list">Hi, Steve</view>
+  <view class="subtitle">Hi, Steve</view>
+</view>
+-->
+
+<!--
+<button open-type="getUserInfo">开始点餐</button>
+-->
+
+<view style="width:100%;height:100rpx;background-color:#ff0;"></view>
+<view style="width:100%;height:400rpx;background-color:#0ff;">Hi,</view>
+<scroll-view style="">
+  <view style="width:100%;height:2000rpx;background-color:#0f0">Hi</view>
+</scroll-view>
+
