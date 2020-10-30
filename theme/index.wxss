@@ -1,2 +1,3 @@
 @import "color.wxss";
 @import "shadow.wxss";
+@import "text.wxss";
